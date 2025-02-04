@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{26D7933E-6AD4-49CA-8A68-ACCC30177A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formats.Pak", "Formats.Pak", "{14066881-DCEB-4534-9CA6-D0363B51BCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CXModdingTools.PakEdit.Formats.Pak", "src\Formats.Pak\src\CXModdingTools.PakEdit.Formats.Pak.csproj", "{A3C2CCAC-633C-4C3F-B976-71627C07E230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CXModdingTools.PakEdit.Formats.Pak.Tests", "src\Formats.Pak\tests\CXModdingTools.PakEdit.Formats.Pak.Tests.csproj", "{F8E1FA1A-CCFD-4C4D-9BFE-91E4FFD952CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,20 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C2CCAC-633C-4C3F-B976-71627C07E230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C2CCAC-633C-4C3F-B976-71627C07E230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C2CCAC-633C-4C3F-B976-71627C07E230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C2CCAC-633C-4C3F-B976-71627C07E230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E1FA1A-CCFD-4C4D-9BFE-91E4FFD952CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E1FA1A-CCFD-4C4D-9BFE-91E4FFD952CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E1FA1A-CCFD-4C4D-9BFE-91E4FFD952CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E1FA1A-CCFD-4C4D-9BFE-91E4FFD952CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14066881-DCEB-4534-9CA6-D0363B51BCF4} = {26D7933E-6AD4-49CA-8A68-ACCC30177A6C}
+		{A3C2CCAC-633C-4C3F-B976-71627C07E230} = {14066881-DCEB-4534-9CA6-D0363B51BCF4}
+		{F8E1FA1A-CCFD-4C4D-9BFE-91E4FFD952CD} = {14066881-DCEB-4534-9CA6-D0363B51BCF4}
 	EndGlobalSection
 EndGlobal
