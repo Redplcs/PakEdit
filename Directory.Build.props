@@ -1,0 +1,12 @@
+<Project>
+  
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Redplcs.$(MSBuildProjectName)</AssemblyName>
+    <AssemblyTitle>Redplcs.$(MSBuildProjectName)</AssemblyTitle>
+    <RootNamespace>Redplcs.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+  </PropertyGroup>
+  
+</Project>
